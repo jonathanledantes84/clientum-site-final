@@ -1,0 +1,77 @@
+a:4:{s:8:"template";s:7:"kadence";s:4:"mods";a:4:{i:0;b:0;s:18:"nav_menu_locations";a:1:{s:7:"primary";i:24;}s:15:"initial_version";s:5:"1.4.5";s:18:"custom_css_post_id";i:246;}s:7:"options";a:23:{s:9:"site_icon";s:1:"0";s:22:"woocommerce_demo_store";s:2:"no";s:29:"woocommerce_demo_store_notice";s:99:"Esta es una tienda de demostración para realizar pruebas &mdash; no se completará ningún pedido.";s:29:"woocommerce_shop_page_display";s:0:"";s:36:"woocommerce_category_archive_display";s:0:"";s:35:"woocommerce_default_catalog_orderby";s:10:"menu_order";s:27:"woocommerce_catalog_columns";i:4;s:24:"woocommerce_catalog_rows";i:4;s:30:"woocommerce_single_image_width";s:3:"600";s:33:"woocommerce_thumbnail_image_width";s:3:"300";s:30:"woocommerce_thumbnail_cropping";s:3:"1:1";s:43:"woocommerce_thumbnail_cropping_custom_width";s:1:"4";s:44:"woocommerce_thumbnail_cropping_custom_height";s:1:"3";s:34:"woocommerce_checkout_company_field";s:8:"optional";s:36:"woocommerce_checkout_address_2_field";s:8:"optional";s:32:"woocommerce_checkout_phone_field";s:8:"required";s:46:"woocommerce_checkout_highlight_required_fields";s:3:"yes";s:55:"woocommerce_checkout_terms_and_conditions_checkbox_text";s:54:"He leído y estoy de acuerdo con los [terms] de la web";s:40:"woocommerce_checkout_privacy_policy_text";s:154:"Tus datos personales se utilizarán para procesar tu pedido, mejorar tu experiencia en esta web y otros propósitos descritos en nuestra [privacy_policy].";s:26:"wp_page_for_privacy_policy";s:1:"0";s:25:"woocommerce_terms_page_id";s:0:"";s:23:"nav_menus_created_posts";a:0:{}s:22:"kadence_global_palette";s:3021:"{"palette":[{"color":"#3182CE","slug":"palette1","name":"Palette Color 1"},{"color":"#2B6CB0","slug":"palette2","name":"Palette Color 2"},{"color":"#1A202C","slug":"palette3","name":"Palette Color 3"},{"color":"#2D3748","slug":"palette4","name":"Palette Color 4"},{"color":"#4A5568","slug":"palette5","name":"Palette Color 5"},{"color":"#718096","slug":"palette6","name":"Palette Color 6"},{"color":"#EDF2F7","slug":"palette7","name":"Palette Color 7"},{"color":"#F7FAFC","slug":"palette8","name":"Palette Color 8"},{"color":"#FFFFFF","slug":"palette9","name":"Palette Color 9"},{"color":"#FfFfFf","slug":"palette10","name":"Palette Color Complement"},{"color":"#13612e","slug":"palette11","name":"Palette Color Success"},{"color":"#1159af","slug":"palette12","name":"Palette Color Info"},{"color":"#b82105","slug":"palette13","name":"Palette Color Alert"},{"color":"#f7630c","slug":"palette14","name":"Palette Color Warning"},{"color":"#f5a524","slug":"palette15","name":"Palette Color Rating"}],"second-palette":[{"color":"#2B6CB0","slug":"palette1","name":"Palette Color 1"},{"color":"#215387","slug":"palette2","name":"Palette Color 2"},{"color":"#1A202C","slug":"palette3","name":"Palette Color 3"},{"color":"#2D3748","slug":"palette4","name":"Palette Color 4"},{"color":"#4A5568","slug":"palette5","name":"Palette Color 5"},{"color":"#718096","slug":"palette6","name":"Palette Color 6"},{"color":"#EDF2F7","slug":"palette7","name":"Palette Color 7"},{"color":"#F7FAFC","slug":"palette8","name":"Palette Color 8"},{"color":"#ffffff","slug":"palette9","name":"Palette Color 9"},{"color":"#FfFfFf","slug":"palette10","name":"Palette Color Complement"},{"color":"#13612e","slug":"palette11","name":"Palette Color Success"},{"color":"#1159af","slug":"palette12","name":"Palette Color Info"},{"color":"#b82105","slug":"palette13","name":"Palette Color Alert"},{"color":"#f7630c","slug":"palette14","name":"Palette Color Warning"},{"color":"#f5a524","slug":"palette15","name":"Palette Color Rating"}],"third-palette":[{"color":"#2B6CB0","slug":"palette1","name":"Palette Color 1"},{"color":"#215387","slug":"palette2","name":"Palette Color 2"},{"color":"#1A202C","slug":"palette3","name":"Palette Color 3"},{"color":"#2D3748","slug":"palette4","name":"Palette Color 4"},{"color":"#4A5568","slug":"palette5","name":"Palette Color 5"},{"color":"#718096","slug":"palette6","name":"Palette Color 6"},{"color":"#EDF2F7","slug":"palette7","name":"Palette Color 7"},{"color":"#F7FAFC","slug":"palette8","name":"Palette Color 8"},{"color":"#ffffff","slug":"palette9","name":"Palette Color 9"},{"color":"#FfFfFf","slug":"palette10","name":"Palette Color Complement"},{"color":"#13612e","slug":"palette11","name":"Palette Color Success"},{"color":"#1159af","slug":"palette12","name":"Palette Color Info"},{"color":"#b82105","slug":"palette13","name":"Palette Color Alert"},{"color":"#f7630c","slug":"palette14","name":"Palette Color Warning"},{"color":"#f5a524","slug":"palette15","name":"Palette Color Rating"}],"active":"palette"}";}s:6:"wp_css";s:1949:"/* Tipografía Clientum */
+body, p, li, .kb-advanced-heading {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #1e293b; /* texto oscuro como Calipso */
+}
+
+h1, h2, h3, .kb-advanced-heading {
+    font-weight: 700;
+    color: #0f1e3a; /* azul oscuro de tu paleta */
+}
+
+/* Hero - minimal como Calipso */
+.is-hero-section, .wp-block-kadence-rowlayout.kb-hero {
+    background: #ffffff !important; /* blanco limpio */
+    padding: 100px 20px 80px !important;
+    text-align: center;
+}
+
+.is-hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+}
+
+.is-hero-section p.lead {
+    font-size: 1.4rem;
+    color: #475569;
+    max-width: 800px;
+    margin: 0 auto 2.5rem;
+}
+
+/* Botones CTA - naranja tuyo para destacar */
+.kt-btn, .wp-block-kadence-advancedbtn .kt-btn {
+    background: #FF6600 !important;
+    color: white !important;
+    border-radius: 6px !important;
+    padding: 16px 36px !important;
+    font-weight: 600 !important;
+    font-size: 1.1rem !important;
+    transition: all 0.3s ease;
+}
+
+.kt-btn:hover {
+    background: #e65c00 !important;
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(255,102,0,0.25);
+}
+
+/* Cards soluciones - grid limpio, hover sutil */
+.kb-info-box, .wp-block-kadence-column {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 32px 24px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(15,30,58,0.06);
+}
+
+.kb-info-box:hover, .wp-block-kadence-column:hover {
+    border-color: #004080;
+    transform: translateY(-8px);
+    box-shadow: 0 16px 40px rgba(0,64,128,0.12);
+}
+
+/* Formulario contacto - campos amplios, submit naranja */
+.kb-advanced-form input, .kb-advanced-form textarea {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    padding: 14px 18px;
+    font-size: 1rem;
+}
+
+.kb-advanced-form .kb-adv-form-submit {
+    background: #FF6600 !important;
+    border: none;
+}";}
