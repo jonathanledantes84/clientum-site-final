@@ -1,0 +1,19 @@
+# PDFs
+*.pdf
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Data files
+*.dat
+*.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
